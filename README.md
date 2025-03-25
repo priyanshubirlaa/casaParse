@@ -90,11 +90,10 @@ casaParse/
 ```http
 POST /api/pdf/parse
 ```
-**Parameters:**
-- `file` (MultipartFile, required) - The PDF to process.
-- `firstname` (String, required only for password-protected files) - Used as part of the password.
-- `dob` (String, required only for password-protected files) - Used as part of the password.
-
+**Parameters (Form-Data):**
+file (MultipartFile, required) - The PDF file to process.
+firstname (String, required only for password-protected PDFs) - First name used as part of the password.
+dob (String, required only for password-protected PDFs) - Date of birth used as part of the password.
 **Response:**
 ```json
 {
