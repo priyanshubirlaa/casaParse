@@ -85,15 +85,25 @@ casaParse/
 ---
 
 ## **API Endpoints**
+
 ### **1. Parse PDF**
 **Request:**
 ```http
 POST /api/pdf/parse
 ```
+
 **Parameters (Form-Data):**
-file (MultipartFile, required) - The PDF file to process.
-firstname (String, required only for password-protected PDFs) - First name used as part of the password.
-dob (String, required only for password-protected PDFs) - Date of birth used as part of the password.
+- `file` (MultipartFile, required) - The PDF file to process.
+- `firstname` (String, required **only for password-protected PDFs**) - First name used as part of the password.
+- `dob` (String, required **only for password-protected PDFs**) - Date of birth used as part of the password.
+
+**Request Example (Postman Form-Data):**
+```plaintext
+file: sample.pdf
+firstname: John
+dob: 1990-01-01
+```
+
 **Response:**
 ```json
 {
@@ -102,6 +112,9 @@ dob (String, required only for password-protected PDFs) - Date of birth used as 
   "openingBalance": "1000",
   "closingBalance": "2000"
 }
+```
+
+
 ```
 
 ---
