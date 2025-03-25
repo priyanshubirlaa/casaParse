@@ -1,7 +1,7 @@
 # **PDF Parsing with Gemini AI - README**
 
 ## **Overview**
-This is a **Spring Boot** application that processes PDF files using **Apache PDFBox** and integrates with **Google Gemini AI** for extracting structured data. The application can handle **password-protected PDFs**, extract text, and use AI to retrieve key details such as **Name, Email, Opening Balance, and Closing Balance**.
+This is a **Spring Boot** application that processes PDF files using **Apache PDFBox** and integrates with **Google Gemini AI** for extracting structured data. The application can handle **CASA PDFs**, which are the PDFs we generally receive monthly from bank accounts, **extract text**, and use **AI** to retrieve key details such as **Name, Email, Opening Balance, and Closing Balance**.
 
 ---
 
