@@ -37,11 +37,6 @@ casaParse/
 │── pom.xml
 │── README.md
 ```
-## **Sample CASA Statement PDF**
-A sample CASA statement PDF is provided for testing.
-
-📄 **[Download Sample PDF](sample/sample_casa_statement.pdf)**
----
 
 ## **Deployment Notes**
 ### **Prerequisites**
