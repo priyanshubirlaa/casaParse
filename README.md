@@ -136,7 +136,6 @@ POST /api/pdf/parse
 ---
 
 ## **Next Steps & Improvements**
-- Implement caching for **frequent API requests**.
 - Support multiple document formats (**Word, Excel**).
 - Add **frontend UI** for user-friendly file uploads.
 
@@ -144,7 +143,7 @@ POST /api/pdf/parse
 
 ## **Author & Contact**
 - **Priyanshu Birla**
-- Email: [your-email@example.com](mailto:priyanshubirla22@gmail.com)
+- Email: [priyanshubirla22@gmail.com](mailto:priyanshubirla22@gmail.com)
   
 
 
