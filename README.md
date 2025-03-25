@@ -74,16 +74,7 @@ casaParse/
    mvn clean install
    mvn spring-boot:run
    ```
-4. **Test the API**
-   - Use **Postman** or **cURL** to test the API.
-   - Endpoint: `POST /api/pdf/parse`
-   - Example Request:
-     ```bash
-     curl -X POST -F "file=@sample.pdf" "http://localhost:8080/api/pdf/parse"
-     ```
-
----
-
+   
 ## **API Endpoints**
 
 ### **1. Parse PDF**
@@ -113,11 +104,6 @@ dob: 1990-01-01
   "closingBalance": "2000"
 }
 ```
-
-
-```
-
----
 
 ## **Implementation Strategy**
 1. **Extract Text from PDFs**
